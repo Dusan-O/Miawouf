@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		2F0CDBD027DF4577002BD8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDBCF27DF4577002BD8C9 /* AppDelegate.swift */; };
 		2F0CDBD227DF4577002BD8C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDBD127DF4577002BD8C9 /* SceneDelegate.swift */; };
-		2F0CDBD427DF4577002BD8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDBD327DF4577002BD8C9 /* ViewController.swift */; };
 		2F0CDBD727DF4577002BD8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0CDBD527DF4577002BD8C9 /* Main.storyboard */; };
 		2F0CDBD927DF4578002BD8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0CDBD827DF4578002BD8C9 /* Assets.xcassets */; };
 		2F0CDBDC27DF4578002BD8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0CDBDA27DF4578002BD8C9 /* LaunchScreen.storyboard */; };
 		2F0CDBE727DF4578002BD8C9 /* MiawoufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDBE627DF4578002BD8C9 /* MiawoufTests.swift */; };
 		2F0CDBF127DF4578002BD8C9 /* MiawoufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDBF027DF4578002BD8C9 /* MiawoufUITests.swift */; };
 		2F0CDBF327DF4578002BD8C9 /* MiawoufUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDBF227DF4578002BD8C9 /* MiawoufUITestsLaunchTests.swift */; };
+		2F0CDC0427DFCC12002BD8C9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDC0327DFCC12002BD8C9 /* WelcomeViewController.swift */; };
+		2F0CDC0927DFD00A002BD8C9 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CDC0827DFD00A002BD8C9 /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		2F0CDBCC27DF4577002BD8C9 /* Miawouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miawouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0CDBCF27DF4577002BD8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F0CDBD127DF4577002BD8C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F0CDBD327DF4577002BD8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F0CDBD627DF4577002BD8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F0CDBD827DF4578002BD8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0CDBDB27DF4578002BD8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		2F0CDBEC27DF4578002BD8C9 /* MiawoufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiawoufUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0CDBF027DF4578002BD8C9 /* MiawoufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiawoufUITests.swift; sourceTree = "<group>"; };
 		2F0CDBF227DF4578002BD8C9 /* MiawoufUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiawoufUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F0CDC0327DFCC12002BD8C9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2F0CDC0827DFD00A002BD8C9 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,11 @@
 		2F0CDBCE27DF4577002BD8C9 /* Miawouf */ = {
 			isa = PBXGroup;
 			children = (
+				2F0CDC0727DFCFA6002BD8C9 /* Controllers */,
+				2F0CDC0627DFCFA0002BD8C9 /* Views */,
+				2F0CDC0527DFCF96002BD8C9 /* Models */,
 				2F0CDBCF27DF4577002BD8C9 /* AppDelegate.swift */,
 				2F0CDBD127DF4577002BD8C9 /* SceneDelegate.swift */,
-				2F0CDBD327DF4577002BD8C9 /* ViewController.swift */,
-				2F0CDBD527DF4577002BD8C9 /* Main.storyboard */,
-				2F0CDBD827DF4578002BD8C9 /* Assets.xcassets */,
-				2F0CDBDA27DF4578002BD8C9 /* LaunchScreen.storyboard */,
 				2F0CDBDD27DF4578002BD8C9 /* Info.plist */,
 			);
 			path = Miawouf;
@@ -125,6 +126,32 @@
 				2F0CDBF227DF4578002BD8C9 /* MiawoufUITestsLaunchTests.swift */,
 			);
 			path = MiawoufUITests;
+			sourceTree = "<group>";
+		};
+		2F0CDC0527DFCF96002BD8C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F0CDC0627DFCFA0002BD8C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F0CDBD527DF4577002BD8C9 /* Main.storyboard */,
+				2F0CDBD827DF4578002BD8C9 /* Assets.xcassets */,
+				2F0CDBDA27DF4578002BD8C9 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F0CDC0727DFCFA6002BD8C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F0CDC0327DFCC12002BD8C9 /* WelcomeViewController.swift */,
+				2F0CDC0827DFD00A002BD8C9 /* FormViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0CDBD427DF4577002BD8C9 /* ViewController.swift in Sources */,
+				2F0CDC0427DFCC12002BD8C9 /* WelcomeViewController.swift in Sources */,
 				2F0CDBD027DF4577002BD8C9 /* AppDelegate.swift in Sources */,
+				2F0CDC0927DFD00A002BD8C9 /* FormViewController.swift in Sources */,
 				2F0CDBD227DF4577002BD8C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
